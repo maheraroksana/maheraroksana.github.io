@@ -105,9 +105,11 @@
                     {% endif %}
                   </a>
                 </li>
+                
               {% endif %}
             {% endif %}
           {% endfor %}
+          
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
@@ -116,6 +118,12 @@
               </button>
             </li>
           {% endif %}
+          <!-- CV section -->
+                <li class="nav-item">
+                  <a class="nav-link" href="/assets/pdf/example_pdf.pdf" target="_blank">
+                    CV
+                  </a>
+                </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
